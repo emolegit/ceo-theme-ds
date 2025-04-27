@@ -192,26 +192,23 @@
 
 .containerTop__45edc::after {
 	position: absolute;
-
-	content    : var(--FVUI);
-
-  /* font-family: anurati!important;
-  text-transform: uppercase; */
-
+	content    : "Loading CEO";
 	font-size  : 150px;
 	color      : var(--color03);
 	text-shadow: 0 0 10px currentcolor, 0 0 20px currentcolor;
-  animation: loadingscreen_unblur_title 3s forwards;
+	font-weight: bold;
+	animation: loadingscreen_unblur_title 3s forwards;
 }
-
 
 .containerTop__45edc::before {
 	position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 50px;
-  content  : var(--version);
-	font-size: 30px;
-	color    : var(--color03);
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 50px;
+	content    : "V 1.0";
+	font-size  : 150px;
+	color      : var(--color03);
+	text-shadow: 0 0 10px currentcolor, 0 0 20px currentcolor;
+	font-weight: bold;
 }
 
