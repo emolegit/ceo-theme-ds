@@ -193,7 +193,7 @@
 .containerTop__45edc::after {
 	position: absolute;
 	content    : "Loading CEO";
-	font-size  : 75px;
+	font-size  : 40px;
 	color      : var(--color03);
 	text-shadow: 0 0 10px currentcolor, 0 0 20px currentcolor;
 	font-weight: bold;
@@ -209,7 +209,7 @@
 	transform: translateX(-50%);
 	bottom: 30px;
 	content    : "V 1.0";
-	font-size  : 75px;
+	font-size  : 40px;
 	color      : var(--color03);
 	text-shadow: 0 0 10px currentcolor, 0 0 20px currentcolor;
 	font-weight: bold;
