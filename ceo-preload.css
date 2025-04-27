@@ -199,15 +199,15 @@
 	font-weight: bold;
 	animation: loadingscreen_unblur_title 3s forwards;
 	left: 50%;
-	transform: translateX(-50%);
-	bottom: 120px;
+	top: 40%;
+	transform: translate(-50%, -50%);
 }
 
 .containerTop__45edc::before {
 	position: absolute;
 	left: 50%;
-	transform: translateX(-50%);
-	bottom: 30px;
+	top: 52%;
+	transform: translate(-50%, -50%);
 	content    : "V 1.0";
 	font-size  : 75px !important;
 	color      : var(--color03);
