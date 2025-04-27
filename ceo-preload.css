@@ -83,16 +83,6 @@
 }
 
 /*----------  Keyframes  ----------*/
-@keyframes loaderr{
-  to{
-    --version      : "1.0";
-    --FVUI         : "CEO";
-    pointer-events : none;
-    backdrop-filter: none;
-    background     : rgba(0,0,0,0.4);
-  }
-}
-
 @keyframes loading-effects {
   0%{
     filter: blur(4px);
@@ -186,7 +176,7 @@
   animation: 
   fade-out var(--loading-screen) ease-in-out forwards 1s,
   hide var(--loading-screen) linear forwards var(--loading-screen),
-  loaderr forwards 1s 5s!important;
+  /* loaderr forwards 1s 5s!important; */
 }
 
 .containerTop__45edc::after {
