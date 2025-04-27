@@ -212,4 +212,7 @@
 	content  : var(--version);
 	font-size: 30px;
 	color    : #000;
+  animation: 
+    fade-out var(--loading-screen) ease-in-out forwards 1s,
+    hide var(--loading-screen) linear forwards var(--loading-screen);
 }
