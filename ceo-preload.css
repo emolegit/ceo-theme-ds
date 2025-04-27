@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap%27');  /*font*/
 
 :root {
-  --FVUI: "Loading";
+  --FVUI: "Loading CEO";
   --font: "Days One" ;
+  --version: "V 1.0";
 }
 
 :root{ /* Colors for users customization */
@@ -206,48 +207,11 @@
 
 .containerTop__45edc::before {
 	position: absolute;
-
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 50px;
-  
-	content  : var(--version);
+  content  : var(--version);
 	font-size: 30px;
 	color    : var(--color03);
 }
 
-/* --- Preload: всегда по центру, всегда чёрный, всегда работает --- */
-body::before {
-  content: "Loading CEO";
-  position: fixed !important;
-  top: 50% !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%) !important;
-  color: #000 !important;
-  font-size: 3rem !important;
-  font-family: sans-serif !important;
-  font-weight: bold !important;
-  z-index: 2147483647 !important;
-  pointer-events: none !important;
-  background: none !important;
-  text-shadow: 0 0 10px #0002;
-  animation:
-    loadingscreen_unblur_title 3s forwards,
-    fade-out 0.5s ease-in-out 2.5s forwards,
-    hide 0.1s linear 3s forwards;
-}
-
-body::after {
-  content: "V 1.0";
-  position: fixed !important;
-  left: 50% !important;
-  bottom: 5% !important;
-  transform: translateX(-50%) !important;
-  color: #000 !important;
-  font-size: 1.5rem !important;
-  font-family: sans-serif !important;
-  z-index: 2147483647 !important;
-  pointer-events: none !important;
-  background: none !important;
-  animation:
-    fade-out 0.5s ease-in-out 2.5s forwards,
-    hide 0.1s linear 3s forwards;
-}
