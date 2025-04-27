@@ -135,6 +135,13 @@
   }
 }
 
+@keyframes hide {
+  to { opacity: 0; pointer-events: none; }
+}
+@keyframes fade-out {
+  to { opacity: 0; }
+}
+
 /*----------  BG  ----------*/
 
 .app_a3002d{
