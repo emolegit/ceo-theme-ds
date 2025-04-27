@@ -2,8 +2,8 @@
 
 :root {
   --FVUI: "CEO";
-  --version: "1.0";
-  --font: "Comfortaa" ;
+  --version: "Version 1.0";
+  --font: "Days One" ;
 }
 
 :root{ /* Colors for users customization */
@@ -134,8 +134,9 @@
 
 /*----------  BG  ----------*/
 
-.app_a3002d{
-  animation: loading-effects var(--loading-screen)!important;
+.app_a3002d {
+  animation: none !important;
+  filter: none !important;
 }
 
 .appMount__51fd7::before{
@@ -205,4 +206,11 @@
   animation: 
     fade-out var(--loading-screen) ease-in-out forwards 1s,
     hide var(--loading-screen) linear forwards var(--loading-screen);
+}
+
+/* Убираем блюр у всех плиток видео/аватарок */
+[class*="video"], [class*="tile"], [class*="avatar"], [class*="stream"] {
+  filter: none !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
 }
