@@ -170,48 +170,33 @@
 /*----------  Text  ----------*/
 
 .containerTop__45edc {
-	display        : flex;
+	position: fixed !important;
+	top: 0; left: 0; width: 100vw; height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	justify-content: center;
-	align-items    : center;
-
-  position: absolute;
-  left: 0!important;
-  bottom: 0!important;
-  transform: none;
-
-	width  : 100vw;
 	z-index: 9999;
-
-	font-weight: bold;
-  
-  animation: 
-  fade-out var(--loading-screen) ease-in-out forwards 1s,
-  hide var(--loading-screen) linear forwards var(--loading-screen),
-  loaderr forwards 1s 5s!important;
 }
 
 .containerTop__45edc::after {
-	position: absolute;
-	content    : "Loading CEO";
-	font-size  : 75px !important;
-	color      : var(--color03);
+	content: "Loading CEO";
+	font-size: 75px !important;
+	color: var(--color03);
 	text-shadow: 0 0 10px currentcolor, 0 0 20px currentcolor;
 	font-weight: bold;
+	margin-bottom: 20px;
+	position: static;
 	animation: loadingscreen_unblur_title 3s forwards;
-	left: 50%;
-	top: 40%;
-	transform: translate(-50%, -50%);
 }
 
 .containerTop__45edc::before {
-	position: absolute;
-	left: 50%;
-	top: 52%;
-	transform: translate(-50%, -50%);
-	content    : "V 1.0";
-	font-size  : 75px !important;
-	color      : var(--color03);
+	content: "V 1.0";
+	font-size: 75px !important;
+	color: var(--color03);
 	text-shadow: 0 0 10px currentcolor, 0 0 20px currentcolor;
 	font-weight: bold;
+	position: static;
+	margin-bottom: 0;
 }
 
