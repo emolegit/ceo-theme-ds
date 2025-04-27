@@ -170,20 +170,24 @@
 /*----------  Text  ----------*/
 
 .containerTop__45edc {
-	display: flex;
+	display        : flex;
 	justify-content: center;
-	align-items: center;
-	position: absolute;
-	left: 0 !important;
-	bottom: 0 !important;
-	transform: none;
-	width: 100vw;
+	align-items    : center;
+
+  position: absolute;
+  left: 0!important;
+  bottom: 0!important;
+  transform: none;
+
+	width  : 100vw;
 	z-index: 9999;
+
 	font-weight: bold;
-	animation: 
-	fade-out var(--loading-screen) ease-in-out forwards 1s,
-	hide var(--loading-screen) linear forwards var(--loading-screen),
-	loaderr forwards 1s 5s!important;
+  
+  animation: 
+  fade-out var(--loading-screen) ease-in-out forwards 1s,
+  hide var(--loading-screen) linear forwards var(--loading-screen),
+  loaderr forwards 1s 5s!important;
 }
 
 .containerTop__45edc::after {
@@ -195,15 +199,15 @@
 	font-weight: bold;
 	animation: loadingscreen_unblur_title 3s forwards;
 	left: 50%;
-	transform: translateX(-50%);
-	bottom: 120px;
+	top: 40%;
+	transform: translate(-50%, -50%);
 }
 
 .containerTop__45edc::before {
 	position: absolute;
 	left: 50%;
-	transform: translateX(-50%);
-	bottom: 30px;
+	top: 52%;
+	transform: translate(-50%, -50%);
 	content    : "V 1.0";
 	font-size  : 75px !important;
 	color      : var(--color03);
