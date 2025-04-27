@@ -169,34 +169,38 @@
 
 /*----------  Text  ----------*/
 
-.containerTop__45edc {
-	position: fixed !important;
-	top: 0; left: 0; width: 100vw; height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	z-index: 9999;
+:root .containerTop__45edc {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 99999 !important;
+    background: none !important;
 }
 
-.containerTop__45edc::after {
-	content: "Loading CEO";
-	font-size: 75px !important;
-	color: var(--color03);
-	text-shadow: 0 0 10px currentcolor, 0 0 20px currentcolor;
-	font-weight: bold;
-	margin-bottom: 20px;
-	position: static;
-	animation: loadingscreen_unblur_title 3s forwards;
+:root .containerTop__45edc::after {
+    content: "Loading CEO";
+    font-size: 75px !important;
+    color: var(--color03) !important;
+    text-shadow: 0 0 10px currentcolor, 0 0 20px currentcolor !important;
+    font-weight: bold !important;
+    margin-bottom: 20px !important;
+    position: static !important;
+    animation: loadingscreen_unblur_title 3s forwards !important;
 }
 
-.containerTop__45edc::before {
-	content: "V 1.0";
-	font-size: 75px !important;
-	color: var(--color03);
-	text-shadow: 0 0 10px currentcolor, 0 0 20px currentcolor;
-	font-weight: bold;
-	position: static;
-	margin-bottom: 0;
+:root .containerTop__45edc::before {
+    content: "V 1.0";
+    font-size: 75px !important;
+    color: var(--color03) !important;
+    text-shadow: 0 0 10px currentcolor, 0 0 20px currentcolor !important;
+    font-weight: bold !important;
+    position: static !important;
+    margin-bottom: 0 !important;
 }
 
