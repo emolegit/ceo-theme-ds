@@ -193,20 +193,23 @@
 .containerTop__45edc::after {
 	position: absolute;
 	content    : "Loading CEO";
-	font-size  : 150px;
+	font-size  : 75px;
 	color      : var(--color03);
 	text-shadow: 0 0 10px currentcolor, 0 0 20px currentcolor;
 	font-weight: bold;
 	animation: loadingscreen_unblur_title 3s forwards;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 120px;
 }
 
 .containerTop__45edc::before {
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-	bottom: 50px;
+	bottom: 30px;
 	content    : "V 1.0";
-	font-size  : 150px;
+	font-size  : 75px;
 	color      : var(--color03);
 	text-shadow: 0 0 10px currentcolor, 0 0 20px currentcolor;
 	font-weight: bold;
