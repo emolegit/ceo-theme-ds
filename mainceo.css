@@ -1,0 +1,17 @@
+:root {
+  --backgroundImage: url('https://i.imgur.com/QMZLSXA.gif');
+  --backgroundColor: #0d0d0d;
+  --backgroundSize: cover;
+  --backgroundPosition: center;
+  --backgroundRepeat: no-repeat;
+  --backgroundBlur: 10px;
+  --backgroundOpacity: 0.8;
+  --homeImage: url('https://i.imgur.com/233d55Y.gif');
+  --homeImageSize: cover;
+  --themeColor1: #FFFFFF;
+  --themeColor2: #000000;
+  --customFont: Days One;
+  --backgroundCode: rgba(0 0 0 /.5);
+  --backgroundName: rgba(0 0 0 /.5);
+}
+
