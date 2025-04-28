@@ -7,4 +7,4 @@ Immerse yourself in the atmosphere of Hellsing with a theme inspired by the lege
 🔞 Only for true hunters of the undead!
 “Fear is freedom. Submission is liberation. Death is victory.”
 
-![CEO](https://github.com/user-attachments/assets/aea370fc-8b06-4895-9e4f-55d11cc5f47d)
+!(https://github.com/user-attachments/assets/aea370fc-8b06-4895-9e4f-55d11cc5f47d)
