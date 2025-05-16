@@ -1,5 +1,5 @@
 :root {
-  --backgroundImage: url('https://imgur.com/QMZLSXA');
+  --backgroundImage: url('https://i.imgur.com/QMZLSXA.gif');
   --backgroundColor: #0d0d0d;
   --backgroundSize: cover;
   --backgroundPosition: center;
@@ -14,4 +14,3 @@
   --backgroundCode: rgba(0 0 0 /.5);
   --backgroundName: rgba(0 0 0 /.5);
 }
-
