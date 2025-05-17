@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Days+One:wght@100;300;400;500;700&display=swap');
 @import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/icons.css");
 :root {
-  --app-font: "Google Sans";
+  --app-font: "Days One";
   --app-bg: var(--main-alt);
   --app-watermark-one: "Material";
   --app-watermark-two: "Discord";
