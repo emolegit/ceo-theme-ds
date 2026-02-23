@@ -1,4 +1,7 @@
-/* --- Interfaccia Utente (UI) --- */
+/* --- Font --- */
+@import url('https://emolegit.github.io/ceo-theme-ds/ceo.css');/* --- Interfaccia Utente (UI) --- */
+
+/* --- Cores --- */
 @import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/ui/app_base.css");
 @import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/ui/scrollbars.css");
 
@@ -24,3 +27,4 @@
 @import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/modules/mentions.css");
 @import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/modules/notifications.css");
 @import url("https://ungiglio.github.io/DiscordDiscordia/awkglass/core/modules/user_panel_version.css");
+@import url('https://fonts.googleapis.com/css2?family=Days+One:wght@100;300;400;500;700&display=swap');
